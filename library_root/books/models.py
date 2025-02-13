@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.db import models
 
 class Author(models.Model):
@@ -16,7 +16,7 @@ class Book(models.Model):
 
    def __str__(self):
        return self.titl
-=======
+
 from django.db import models
 
 class Author(models.Model):
@@ -34,4 +34,4 @@ class Book(models.Model):
 
    def __str__(self):
        return self.title
->>>>>>> 6a34787 (Junuel)
+
