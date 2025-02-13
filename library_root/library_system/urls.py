@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 URL configuration for library_system project.
 
@@ -20,3 +21,17 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+=======
+from django.contrib import admin
+
+from django.urls import path, include
+
+urlpatterns = [
+
+   path('admin/', admin.site.urls),
+
+   path('books/', include('books.urls')),
+
+]
+
+>>>>>>> 6a34787 (Junuel)
